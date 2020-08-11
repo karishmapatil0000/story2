@@ -9,6 +9,11 @@
   margin: 0px;
   padding: 0px;
 }
+.collection-list{
+  padding-left: 250px;
+  padding-top: 0px;
+  
+}
 #main { 
   display: flex; 
   flex-wrap: nowrap; 
@@ -25,9 +30,9 @@ width: 200px;
   flex-wrap: nowrap;
 }
 
-.collection-list{
+/*.collection-list{
   padding-left: 250px;
-  padding-top: 0px;
+  padding-top: 0px;*/
   
 }
 
@@ -225,6 +230,24 @@ html {
   .vertical-menu img {
     width: 20px;
   }
+  @media (max-width: 756px) {
+    .collection-list {
+      float: right;
+      padding: 2px 15px;
+      padding-left: 250px;
+    }
+  }
+  
+  .collection-list img {
+    padding-left: 250px;
+  padding-top: 0px;
+  margin-left: 250px;
+  }
+  
+  @media (max-width: 756px) {
+    .collection-list img {
+      width: 20px;
+    }
 }
 /*
 
