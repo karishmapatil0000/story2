@@ -9,10 +9,37 @@
   margin: 0px;
   padding: 0px;
 }
+#main { 
+  display: flex; 
+  flex-wrap: nowrap; 
+} 
+.vertical-menu{
+
+width: 200px;
+  
+}
+
+
+.list{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.collection-list{
+  padding-left: 250px;
+  padding-top: 0px;
+  
+}
+
 .column {
   float: left;
   width: 33.33%;
   padding: 5px;
+}
+
+
+.background-image{
+  opacity: 0.5;
 }
 /* Clearfix (clear floats) */
 .row::after {
@@ -30,12 +57,17 @@
   -ms-user-select: none;
   user-select: none;
 }
+.cllection-list {
+
+  margin-right: 30%;
+  
+}
 
 /* The actual popup */
 .popup .popuptext {
   visibility: hidden;
   width: 160px;
-  background-color: #555;
+  background-color:black;
   color:black;
   text-align:right;
   border-radius: 6px;
@@ -57,7 +89,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #555 transparent transparent transparent;
+  border-color:black;
 }
 
 /* Toggle this class - hide and show the popup */
@@ -290,7 +322,7 @@ html {
 }
 
 .search-restaurant #search-res {
-  width: 300px;
+  width: 500px;
   height: auto;
   border-radius: 20px;
   border: white;
@@ -515,7 +547,7 @@ html {
   color: #ff3d3d;
 }
 
-.categories {
+/*.categories {
   margin: 15px;
 }
 
